@@ -247,7 +247,6 @@ data/
 
 Using Jupyter Notebook:
 
-    ```
     jupyter notebook
 
 Open the notebook and run all cells.
@@ -256,5 +255,4 @@ Open the notebook and run all cells.
 
 Results (plots & model) will be saved in:
 
-    ```
     results/
