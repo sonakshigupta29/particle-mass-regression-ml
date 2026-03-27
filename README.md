@@ -16,7 +16,16 @@ Fully Connected Network (FCNN) – to learn global feature relationships
 
 Beyond model implementation, the project emphasizes understanding model behavior, identifying limitations, and evaluating generalization performance in the context of scientific machine learning.
 
+---
 
+## Task 2f: Particle Mass Regression
+
+This task focuses on training deep learning models to estimate particle mass from jet images. Two architectures were explored:
+
+- Convolutional Neural Network (CNN)
+- Fully Connected Network (FC)
+
+The models were evaluated using RMSE, MAE, and R² score, with analysis of overfitting and underfitting behavior.
 
 
 ## Dataset Description
@@ -143,8 +152,17 @@ To mitigate overfitting, the following techniques were applied:
 
 Despite these measures, some overfitting persists due to dataset limitations, reflecting real-world challenges in scientific ML.
 
+---
 
+## Task 2g: Inference within CMSSW
 
+This task focuses on deploying the trained model into the CMSSW framework.
+
+- The best-performing model was converted to ONNX format
+- The CMSSW inference pipeline was studied and outlined
+- Due to environment constraints, full execution was not performed, but the integration workflow was clearly documented
+
+  
 ## Model Selection
 
 The **Fully Connected model** was selected for deployment as it demonstrated better learning capability compared to the CNN model.
