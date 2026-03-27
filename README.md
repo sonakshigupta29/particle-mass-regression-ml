@@ -80,6 +80,12 @@ The dataset presents a challenging scenario due to:
 
 ![Prediction Plot](results/PredvsTrue_comparison.png)
 
+---
+
+### Residual Plot Comparision
+
+![Prediction Plot](results/residuals_comparison.png)
+
 
 
 ### Quantitative Metrics
