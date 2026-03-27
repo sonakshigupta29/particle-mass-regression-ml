@@ -85,7 +85,7 @@ The dataset presents a challenging scenario due to:
 
 ---
 
-### Residual Plot Comparision
+### Residual Plot Comparison
 
 ![Prediction Plot](results/residuals_comparison.png)
 
@@ -200,7 +200,7 @@ This project demonstrates the importance of:
 - Choosing architecture accordingly
 - Analyzing learning behavior, not just metrics
 
-The comparison between CNN and fully connected architectures highlights the importance of aligning model complexity with data characteristics.
+This work highlights the importance of balancing model complexity with data availability in scientific machine learning tasks.
 
 Additionally, the ONNX conversion and deployment discussion provide insight into real-world machine learning integration within experimental physics frameworks.
 
@@ -243,9 +243,11 @@ Additionally, the ONNX conversion and deployment discussion provide insight into
 Download the dataset - The dataset is not included in this repository due to size constraints. 
 Please download it from the official source (https://cernbox.cern.ch/s/zUvpkKhXIp0MJ0g
 ) or provide your own dataset in the required format.
-Place it inside the data/ folder
+
+Place it inside the data/ folder:
+
 data/
-└── dataset.npy   # or your dataset files
+└── dataset.npy
 
 5. Run the Project
 
