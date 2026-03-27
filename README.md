@@ -1,4 +1,4 @@
-<center> # ML4SCI GSoC 2026 – Deep Learning for Particle Mass Regression </center>
+<center> <h1>  ML4SCI GSoC 2026 – Deep Learning for Particle Mass Regression </center> </h1>
 
 ## Context
 
