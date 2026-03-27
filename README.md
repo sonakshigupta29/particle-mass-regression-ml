@@ -7,6 +7,7 @@ This project focuses on regressing particle mass from high-dimensional jet image
 Two architectures were explored:
 
 Convolutional Neural Network (CNN) – to capture spatial patterns
+
 Fully Connected Network (FCNN) – to learn global feature relationships
 
 Beyond model implementation, the project emphasizes understanding model behavior, identifying limitations, and evaluating generalization performance in the context of scientific machine learning.
@@ -77,7 +78,7 @@ The dataset presents a challenging scenario due to:
 
 ### Prediction vs True Values (Fully Connected Model)
 
-![Prediction Plot](results/PredvsTrue comparison.png)
+![Prediction Plot](results/PredvsTrue_comparison.png)
 
 ---
 
@@ -217,15 +218,18 @@ Additionally, the ONNX conversion and deployment discussion provide insight into
 ## How to Run
 
 1. Clone the repository
+   
    ```
    git clone https://github.com/your-username/your-repo-name.git
    cd your-repo-name
 
-2. Install dependencies
+3. Install dependencies
+   
    ```
    pip install -r requirements.txt
 
-3. Add Dataset
+5. Add Dataset
+   
 Download the dataset - The dataset is not included in this repository due to size constraints. 
 Please download it from the official source (https://cernbox.cern.ch/s/zUvpkKhXIp0MJ0g
 ) or provide your own dataset in the required format.
@@ -237,6 +241,7 @@ data/
 
 Using Jupyter Notebook:
 
+    ```
     jupyter notebook
 
 Open the notebook and run all cells.
@@ -244,5 +249,6 @@ Open the notebook and run all cells.
 6. Outputs
 
 Results (plots & model) will be saved in:
-```
-results/
+
+    ```
+    results/
