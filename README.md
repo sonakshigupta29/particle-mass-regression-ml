@@ -14,6 +14,7 @@ Beyond model implementation, the project emphasizes understanding model behavior
 
 
 
+
 ## Dataset Description
 
 - Input shape: **(4, 125, 125)** jet images  
@@ -70,6 +71,8 @@ The dataset presents a challenging scenario due to:
 
 ## Results
 
+---
+
 ### Validation Loss Comparison
 
 ![Loss Curve](results/validation_loss_comparison.png)
@@ -86,6 +89,7 @@ The dataset presents a challenging scenario due to:
 
 ![Prediction Plot](results/residuals_comparison.png)
 
+---
 
 
 ### Quantitative Metrics
