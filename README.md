@@ -12,7 +12,7 @@ Fully Connected Network (FCNN) – to learn global feature relationships
 
 Beyond model implementation, the project emphasizes understanding model behavior, identifying limitations, and evaluating generalization performance in the context of scientific machine learning.
 
----
+
 
 ## Dataset Description
 
@@ -26,7 +26,7 @@ The dataset presents a challenging scenario due to:
 - Limited number of samples  
 - Potential risk of overfitting  
 
----
+
 
 ## Methodology
 
@@ -39,7 +39,7 @@ The dataset presents a challenging scenario due to:
 - Target normalization for stable training  
 - Train-validation split: **80% / 20%**
 
----
+
 
 ## Models Implemented
 
@@ -54,7 +54,7 @@ The dataset presents a challenging scenario due to:
 - Dense layers with ReLU activation  
 - Dropout for regularization  
 
----
+
 
 ## Training Strategy
 
@@ -66,7 +66,7 @@ The dataset presents a challenging scenario due to:
 - Early stopping:
   - Best model selected based on validation loss  
 
----
+
 
 ## Results
 
@@ -80,7 +80,7 @@ The dataset presents a challenging scenario due to:
 
 ![Prediction Plot](results/PredvsTrue_comparison.png)
 
----
+
 
 ### Quantitative Metrics
 
@@ -89,7 +89,7 @@ The dataset presents a challenging scenario due to:
 | CNN | 119.82 | 103.89 | -0.0007 |
 | Fully Connected | **116.29** | **99.02** | **0.0573** |
 
----
+
 
 ## Analysis
 
@@ -108,7 +108,7 @@ The dataset presents a challenging scenario due to:
 - Validation loss increased over epochs  
 - Indicates **overfitting**, but model successfully learned patterns  
 
----
+
 
 ### Key Observations
 
