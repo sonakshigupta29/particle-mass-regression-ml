@@ -247,7 +247,7 @@ data/
 
 Using Jupyter Notebook:
 
-    jupyter notebook
+    jupyter lab
 
 Open the notebook and run all cells.
 
