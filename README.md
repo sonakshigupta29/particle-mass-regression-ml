@@ -154,7 +154,7 @@ The selected model was exported to ONNX format to enable integration with extern
 - PyTorch → ONNX conversion completed successfully  
 - Ensures interoperability for inference pipelines  
 
----
+
 
 ## CMSSW Integration (Conceptual)
 
