@@ -182,8 +182,8 @@ The selected model was exported to ONNX format to enable integration with extern
 
 - ONNX model can be loaded using ONNX Runtime in CMSSW
 - Enables:
- -- Fast inference inside high-energy physics pipelines
- -- Integration with existing CMS workflows
+  - Fast inference inside high-energy physics pipelines
+  - Integration with existing CMS workflows
 Inference Pipeline:
 - Load ONNX model
 - Preprocess input jet images
@@ -262,9 +262,11 @@ Additionally, the ONNX conversion and deployment discussion provide insight into
 
 5. Add Dataset
    
-Download the dataset - The dataset is not included in this repository due to size constraints. 
-Please download it from the official source (https://cernbox.cern.ch/s/zUvpkKhXIp0MJ0g
-) or provide your own dataset in the required format.
+Download the dataset:
+
+The dataset is not included due to size constraints. Please download it from the official source:
+https://cernbox.cern.ch/s/zUvpkKhXIp0MJ0g
+
 
 5. Run the Project
 
