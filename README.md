@@ -116,13 +116,13 @@ The dataset presents a challenging scenario due to:
 
 
 
-### Key Observations
+## Key Observations
 
 - High-dimensional inputs with limited data lead to generalization challenges  
 - CNNs require larger datasets to effectively learn spatial representations  
 - Fully connected models learn faster but tend to overfit  
 
----
+
 
 ## Overfitting Control
 
@@ -135,7 +135,7 @@ To mitigate overfitting, the following techniques were applied:
 
 Despite these measures, some overfitting persists due to dataset limitations, reflecting real-world challenges in scientific ML.
 
----
+
 
 ## Model Selection
 
@@ -172,7 +172,7 @@ The deployment workflow includes:
 
 Due to environment constraints, full CMSSW execution was not performed locally. However, the pipeline and integration steps were clearly outlined.
 
----
+
 
 ## Challenges
 
@@ -182,7 +182,7 @@ Due to environment constraints, full CMSSW execution was not performed locally. 
 - Managing large dataset size during training
 - Saving and organizing outputs for reproducibility
 
----
+
 
 ## Conclusion
 
@@ -200,7 +200,7 @@ The comparison between CNN and fully connected architectures highlights the impo
 
 Additionally, the ONNX conversion and deployment discussion provide insight into real-world machine learning integration within experimental physics frameworks.
 
----
+
 
 ## Future Work
 
@@ -210,7 +210,7 @@ Additionally, the ONNX conversion and deployment discussion provide insight into
 - Complete full CMSSW inference pipeline  
 - Optimize model for inference latency  
 
----
+
 
 ## Key Takeaways
 
