@@ -2,7 +2,7 @@
 
 ## Context
 
-This repository contains my implementation of the ML4Sci GSoC 2026 test tasks, focusing on deep learning–based particle mass regression and deployment using ONNX and CMSSW.
+This repository contains my implementation and exploration of the ML4Sci GSoC 2026 test tasks, focusing on deep learning–based particle mass regression and deployment using ONNX and CMSSW.
 
 ## Overview
 
