@@ -1,4 +1,8 @@
-# Particle Mass Regression using Deep Learning
+<center> # ML4SCI GSoC 2026 – Deep Learning for Particle Mass Regression </center>
+
+## Context
+
+This repository contains my implementation of the ML4Sci GSoC 2026 test tasks, focusing on deep learning–based particle mass regression and deployment using ONNX and CMSSW.
 
 ## Overview
 
