@@ -244,11 +244,6 @@ Download the dataset - The dataset is not included in this repository due to siz
 Please download it from the official source (https://cernbox.cern.ch/s/zUvpkKhXIp0MJ0g
 ) or provide your own dataset in the required format.
 
-Place it inside the data/ folder:
-
-data/
-└── dataset.npy
-
 5. Run the Project
 
 Using Jupyter Notebook:
